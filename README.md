@@ -6,10 +6,10 @@ Este repositorio es para intentar mejorarla.
 He buscado que sea agradeable a la vista y eficiente.
 
 #####Bibliotecas que utlilizo:
-+[jQuery](http://jquery.com/)
-+[Sidr](https://github.com/artberri/sidr)
-+[Normalize](http://necolas.github.io/normalize.css/)
-+[Responsive Mobile Menu](http://responsivemobilemenu.com)
++ [jQuery](http://jquery.com/)
++ [Sidr](https://github.com/artberri/sidr)
++ [Normalize](http://necolas.github.io/normalize.css/)
++ [Responsive Mobile Menu](http://responsivemobilemenu.com)
 
 
 ***
@@ -21,9 +21,9 @@ This repository is to try to improve it
 #####Libraries that use:
 
 #####Bibliotecas que utlilizo:
-+[jQuery](http://jquery.com/)
-+[Sidr](https://github.com/artberri/sidr)
-+[Normalize](http://necolas.github.io/normalize.css/)
-+[Responsive Mobile Menu](http://responsivemobilemenu.com)
++ [jQuery](http://jquery.com/)
++ [Sidr](https://github.com/artberri/sidr)
++ [Normalize](http://necolas.github.io/normalize.css/)
++ [Responsive Mobile Menu](http://responsivemobilemenu.com)
 
 ***

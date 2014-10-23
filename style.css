@@ -1,9 +1,9 @@
 /*
 Theme Name: Iblancasa
-Theme URI: https://github.com/iblancasa/iblancasaWordpressTheme
-Author: Israel Blancas. iblancasa
-Author URI: http://iblancasa.com;
-Description: Tema utilizado en el blog de Israel Blancas (http://iblancasa.com)
+Theme URI: http://wordpress.org/themes/twentytwelve
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: tema iblancasa
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /*Carga de fuentes*/
 @import url(http://fonts.googleapis.com/css?family=Oswald:300);
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
 
 /*Body*/
 body{
@@ -88,10 +87,8 @@ body{
 .post p{
 	line-height: 1.4;
 	text-align: justify;
-	padding-left: 4%;
+	padding-left: 2.5%;
 	padding-right: 3%;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 110%;
 }
 
 /*Título del post*/
@@ -103,9 +100,15 @@ body{
 	background-color: #3299BB;
 }
 
+.post h2{
+	color: #3299BB;
+	top-margin:2%;
+}
+
+
 /*Sobre el enlace*/
 .post a{
-	color: #0101DF;
+	color: #21708A;
 	text-decoration: none;
 	font-weight: lighter;
 }
@@ -115,13 +118,21 @@ body{
 }
 
 
+.post strong{
+	color:#3299BB;
+}
+
 .post img{
 	margin: 3%;
 }
 
 .post ul{
-	line-height: 1.2;
-	font-family: 'Josefin Sans', sans-serif;
+	margin-top:2%;
+	margin-bottom:3%;
+}
+
+.post li{
+	margin-bottom:2%;
 }
 
 /*Fecha del post*/

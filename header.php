@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Iblancasa blog</title>
+    <title><?php wp_title(); ?></title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, minimum-scale=1">
     <link rel="author" href="http://iblancasa.com/humans.txt" />

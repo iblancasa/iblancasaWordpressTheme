@@ -39,6 +39,7 @@
         <a href="https://www.youtube.com/user/iblancasa/"><img src="http://iblancasa.com/wp-content/themes/iblancasa/iconos/youtube.png"/></a>
         <a href="http://iblancasa.com/feed/"><img src="http://iblancasa.com/wp-content/themes/iblancasa/iconos/rss.png"/></a>
         <a href="http://es.linkedin.com/in/iblancasa"><img src="http://iblancasa.com/wp-content/themes/iblancasa/iconos/linkedin.png"/></a>
+        <a href="https://github.com/iblancasa"><img src="http://iblancasa.com/wp-content/themes/iblancasa/iconos/github.png"/></a>
       </aside>
     <nav id="navegacionsuperior" class="rmm">
             <ul>

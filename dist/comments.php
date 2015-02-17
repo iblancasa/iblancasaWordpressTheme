@@ -8,7 +8,7 @@
 
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
-			<?php comments_number( '0 comment', '1 comment', '% comments' ); ?>
+			<?php comments_number( '0 comentarios', '1 comentario', '% comentarios' ); ?>
 		</h2>
 
 		<ol class="comment-list">
@@ -25,8 +25,8 @@
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
 		<nav class="navigation comment-navigation" role="navigation">
 			<h1 class="screen-reader-text section-heading"><?php _e( 'Comment navigation', 'flat' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'flat' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'flat' ) ); ?></div>
+			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Comentarios más antiguos', 'flat' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Nuevos comentarios &rarr;', 'flat' ) ); ?></div>
 		</nav>
 		<?php endif; ?>
 

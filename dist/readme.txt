@@ -1,24 +1,5 @@
-
-#iblancasaWordpressTheme
-=======================
-
-###Plantilla para Wordpress utilizada en [mi blog](http://iblancasa.com)
-Este repositorio es para intentar mejorarla.
-He buscado que sea agradeable a la vista y eficiente.
-
-#####Bibliotecas que utlilizo:
-+ [jQuery](http://jquery.com/)
-+ [Sidr](https://github.com/artberri/sidr)
-+ [Normalize](http://necolas.github.io/normalize.css/)
-+ [Responsive Mobile Menu](http://responsivemobilemenu.com)
-
-
-***
-
-=======
 # Flat
 
-[![Travis CI Build Status](https://travis-ci.org/yoarts/flat.svg?branch=master)](https://travis-ci.org/yoarts/flat) [![devDependency Status](https://david-dm.org/yoarts/flat/dev-status.svg)](https://david-dm.org/yoarts/flat#info=devDependencies) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yoarts/flat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
 * Author: YoArts
 * Author URL: http://www.yoarts.com
 * Contributer: @yoarts, @ghost, @ashfame, @kevinpapst, @abovethewater
@@ -96,33 +77,6 @@ Flat is built with the following resources:
 * [Ashfame](https://github.com/ashfame)
 * [Rick Beckman](http://www.rickbeckman.com/)
 
-## Theme development
-
-Flat uses [Grunt](http://gruntjs.com/) for compiling LESS to CSS, checking for JS errors, live reloading, concatenating and minifying files.
-
-Add the following to your `wp-config.php` on your development installation:
-
-```php
-define('WP_ENV', 'development');
-```
-
-### Install Grunt
-
-**Unfamiliar with npm? Don't have node installed?** [Download and install node.js](http://nodejs.org/download/) before proceeding.
-
-From the command line:
-
-1. Install `grunt-cli` globally with `npm install -g grunt-cli`.
-2. Navigate to the theme directory, then run `npm install`. npm will look at `package.json` and automatically install the necessary dependencies. It will also automatically run `bower install`, which installs front-end packages defined in `bower.json`.
-
-When completed, you'll be able to run the various Grunt commands provided from the command line.
-
-### Available Grunt commands
-
-* `grunt dev` — Compile LESS to CSS, concatenate and validate JS
-* `grunt watch` — Compile assets when file changes are made
-* `grunt build` — Create minified assets, then export theme package for WordPress.org
-
 ## Customization
 
 Flat is able to be customized extensively by the [WordPress hooks & filters API](http://codex.wordpress.org/Plugin_API), which is a fancy way of saying that without creating a child theme, you have the freedom to add, remove, and change a lot of what makes Flat _Flat_. In addition to the default hooks & filters that just about any WordPress theme has available, Flat is equipped with the following:
@@ -181,4 +135,3 @@ Flat is able to be customized extensively by the [WordPress hooks & filters API]
 
 * `flat_404_title` — (string) The title of the 404 Error page.
 * `show_flat_credits` — (boolean) Whether to show the default `footer` credits block
->>>>>>> 5b957d16f941507d50e4ae194d8dc005cefa0949
